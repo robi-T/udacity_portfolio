@@ -1,0 +1,24 @@
+body, 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 1.1em;
+  color: #2d3c49;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; 
+}
+
+
+.container {
+  display: flex; /* or inline-flex */
+}

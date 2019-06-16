@@ -1,0 +1,8 @@
+@import url("medium.css");
+
+body {
+
+	max-width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}

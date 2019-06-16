@@ -1,0 +1,159 @@
+@import url("main.css");
+
+/* Defines the style of the top (header) part of the document |---> */
+
+header {
+	width: 100%;
+	order: -1;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+
+.header_logo {
+	height: 68px;
+	width: 68px;
+	/*display: inline-block;*/
+	padding: 5px;
+	float: left;
+	vertical-align: middle;
+}
+
+.header_text {
+
+	font-family: 'Khand', sans-serif;
+	font-size: 2.4em;
+	font-weight: 500;
+	color: #2d3c49;
+	display: block;
+	text-align: right;
+	position: relative;
+	width: 99%;
+	padding-right: 5px;
+}
+
+.header_subtext {
+
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	color: #2d3c49;
+	display: block;
+	text-align: right;
+	width: 99%;
+	padding-right: 5px;
+}
+
+
+ /* (header) <---| */
+
+
+
+/* Defines the style of the main content   |---> */
+
+
+.featured_item_content {
+	order: 3;
+	padding-left: 4px;
+}
+
+.featured_headline {
+
+	text-align: center;
+	/*text-transform: uppercase;*/
+	font-size: 1.0em;
+	font-weight: 600;
+	padding-top: 5px;
+}
+
+/* Defines background image for the first section of the main part of the page */
+
+.content_item {
+	width: 100%;
+	order: 0;
+	min-height: 380px;
+	background-image: url("../images/main_pix_711px.png"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/* Defines the style of the 3 featured items */
+
+.featured_item_logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	height: 140px;
+}
+
+
+.featured_text {
+	width: 100%;
+	/*order: 3;*/
+	/*min-height: 30px;*/
+	font-size: 1.3em;
+	font-weight: 500;
+	padding-top: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+
+}
+
+.featured_item {
+	width: 32.5%;
+	order: 4;
+	font-size: 0.9em;
+	padding: 2px;
+}
+
+/* (the main content) <---| */
+
+/* Defines the style of the bottom (footer) part of the document */
+
+footer {
+	width: 100%;
+	order: 9;
+	min-height: 80px;
+	font-weight: 500;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.cc_logo {
+	height: 24px;
+	width: 24px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+
+/* Defines style for the classes: flex wrapper, box (to strech the element to the max relative width) and horizontal line below the heading */
+
+/* flex wrapper */
+
+.container {
+	display: flex; /* or inline-flex */
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.box {
+	width: 100%;
+}
+
+
+hr { 
+	display: block;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 2px;
+	color: #7d97ad;
+}
